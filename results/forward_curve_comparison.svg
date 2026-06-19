@@ -1,0 +1,38 @@
+<svg width="1500" height="920" viewBox="0 0 1500 920" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="1500" height="920" rx="28" fill="#0B1220"/>
+<text x="140" y="108" fill="#F5F7FB" font-size="40" font-weight="700" font-family="SF Pro Display, Helvetica, Arial, sans-serif">Forward Curve Comparison</text>
+<text x="140" y="146" fill="#91A4BD" font-size="18" font-family="SF Pro Text, Helvetica, Arial, sans-serif">Interpolation changes the shape between quoted nodes, especially in the 4Y to 8Y region.</text>
+<line x1="140" y1="780" x2="1350" y2="780" stroke="#32455E" stroke-width="2"/>
+<line x1="140" y1="200" x2="140" y2="780" stroke="#32455E" stroke-width="2"/>
+<rect x="960" y="84" width="18" height="18" rx="4" fill="#61D9FF"/>
+<text x="992" y="99" fill="#DDE8F4" font-size="16" font-family="SF Pro Text, Helvetica, Arial, sans-serif">LINEAR_ZERO_RATES</text>
+<rect x="960" y="112" width="18" height="18" rx="4" fill="#7CF0C5"/>
+<text x="992" y="127" fill="#DDE8F4" font-size="16" font-family="SF Pro Text, Helvetica, Arial, sans-serif">LOG_LINEAR_DISCOUNT_FACTORS</text>
+<rect x="960" y="140" width="18" height="18" rx="4" fill="#FFC86E"/>
+<text x="992" y="155" fill="#DDE8F4" font-size="16" font-family="SF Pro Text, Helvetica, Arial, sans-serif">LINEAR_DISCOUNT_FACTORS</text>
+<line x1="140" y1="780.0" x2="1350" y2="780.0" stroke="#1B2B40" stroke-width="1"/>
+<text x="40" y="786.0" fill="#7890AA" font-size="16" font-family="SF Pro Text, Helvetica, Arial, sans-serif">1.99%</text>
+<line x1="140" y1="635.0" x2="1350" y2="635.0" stroke="#1B2B40" stroke-width="1"/>
+<text x="40" y="641.0" fill="#7890AA" font-size="16" font-family="SF Pro Text, Helvetica, Arial, sans-serif">2.71%</text>
+<line x1="140" y1="490.0" x2="1350" y2="490.0" stroke="#1B2B40" stroke-width="1"/>
+<text x="40" y="496.0" fill="#7890AA" font-size="16" font-family="SF Pro Text, Helvetica, Arial, sans-serif">3.42%</text>
+<line x1="140" y1="345.0" x2="1350" y2="345.0" stroke="#1B2B40" stroke-width="1"/>
+<text x="40" y="351.0" fill="#7890AA" font-size="16" font-family="SF Pro Text, Helvetica, Arial, sans-serif">4.13%</text>
+<line x1="140" y1="200.0" x2="1350" y2="200.0" stroke="#1B2B40" stroke-width="1"/>
+<text x="40" y="206.0" fill="#7890AA" font-size="16" font-family="SF Pro Text, Helvetica, Arial, sans-serif">4.84%</text>
+<line x1="233.1" y1="200" x2="233.1" y2="780" stroke="#132338" stroke-width="1"/>
+<text x="218.1" y="820" fill="#AABED6" font-size="15" font-family="SF Pro Text, Helvetica, Arial, sans-serif">1Y</text>
+<line x1="357.2" y1="200" x2="357.2" y2="780" stroke="#132338" stroke-width="1"/>
+<text x="342.2" y="820" fill="#AABED6" font-size="15" font-family="SF Pro Text, Helvetica, Arial, sans-serif">2Y</text>
+<line x1="481.3" y1="200" x2="481.3" y2="780" stroke="#132338" stroke-width="1"/>
+<text x="466.3" y="820" fill="#AABED6" font-size="15" font-family="SF Pro Text, Helvetica, Arial, sans-serif">3Y</text>
+<line x1="729.5" y1="200" x2="729.5" y2="780" stroke="#132338" stroke-width="1"/>
+<text x="714.5" y="820" fill="#AABED6" font-size="15" font-family="SF Pro Text, Helvetica, Arial, sans-serif">5Y</text>
+<line x1="977.7" y1="200" x2="977.7" y2="780" stroke="#132338" stroke-width="1"/>
+<text x="962.7" y="820" fill="#AABED6" font-size="15" font-family="SF Pro Text, Helvetica, Arial, sans-serif">7Y</text>
+<line x1="1350.0" y1="200" x2="1350.0" y2="780" stroke="#132338" stroke-width="1"/>
+<text x="1335.0" y="820" fill="#AABED6" font-size="15" font-family="SF Pro Text, Helvetica, Arial, sans-serif">10Y</text>
+<path d="M 140.00 736.97 L 171.03 736.97 L 202.05 736.97 L 233.08 736.97 L 264.10 608.88 L 295.13 557.59 L 326.15 506.26 L 357.18 454.90 L 388.21 449.77 L 419.23 408.66 L 450.26 367.52 L 481.28 326.37 L 512.31 452.34 L 543.33 436.92 L 574.36 421.50 L 605.38 406.08 L 636.41 390.66 L 667.44 375.24 L 698.46 359.81 L 729.49 344.38 L 760.51 544.76 L 791.54 549.89 L 822.56 555.02 L 853.59 560.15 L 884.62 565.28 L 915.64 570.41 L 946.67 575.54 L 977.69 580.67 L 1008.72 362.38 L 1039.74 352.09 L 1070.77 341.80 L 1101.79 331.52 L 1132.82 321.22 L 1163.85 310.93 L 1194.87 300.64 L 1225.90 290.34 L 1256.92 280.05 L 1287.95 269.75 L 1318.97 259.45 L 1350.00 249.15" stroke="#61D9FF" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 140.00 736.97 L 171.03 736.97 L 202.05 736.97 L 233.08 736.97 L 264.10 531.93 L 295.13 531.93 L 326.15 531.93 L 357.18 531.93 L 388.21 388.09 L 419.23 388.09 L 450.26 388.09 L 481.28 388.09 L 512.31 398.37 L 543.33 398.37 L 574.36 398.37 L 605.38 398.37 L 636.41 398.37 L 667.44 398.37 L 698.46 398.37 L 729.49 398.37 L 760.51 562.72 L 791.54 562.72 L 822.56 562.72 L 853.59 562.72 L 884.62 562.72 L 915.64 562.72 L 946.67 562.72 L 977.69 562.72 L 1008.72 305.79 L 1039.74 305.79 L 1070.77 305.79 L 1101.79 305.79 L 1132.82 305.79 L 1163.85 305.79 L 1194.87 305.79 L 1225.90 305.79 L 1256.92 305.79 L 1287.95 305.79 L 1318.97 305.79 L 1350.00 305.79" stroke="#7CF0C5" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+<path d="M 140.00 740.68 L 171.03 738.23 L 202.05 735.75 L 233.08 733.24 L 264.10 539.77 L 295.13 534.60 L 326.15 529.34 L 357.18 524.00 L 388.21 399.74 L 419.23 392.08 L 450.26 384.26 L 481.28 376.28 L 512.31 424.53 L 543.33 417.34 L 574.36 410.01 L 605.38 402.55 L 636.41 394.93 L 667.44 387.17 L 698.46 379.26 L 729.49 371.18 L 760.51 579.17 L 791.54 574.61 L 822.56 569.98 L 853.59 565.29 L 884.62 560.52 L 915.64 555.67 L 946.67 550.75 L 977.69 545.76 L 1008.72 356.27 L 1039.74 347.73 L 1070.77 339.01 L 1101.79 330.10 L 1132.82 321.01 L 1163.85 311.72 L 1194.87 302.23 L 1225.90 292.53 L 1256.92 282.62 L 1287.95 272.48 L 1318.97 262.12 L 1350.00 251.51" stroke="#FFC86E" stroke-width="5" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>

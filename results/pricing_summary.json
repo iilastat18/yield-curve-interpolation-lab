@@ -1,0 +1,23 @@
+[
+  {
+    "mode": "LINEAR_ZERO_RATES",
+    "par_swap_5y": "0.03399505",
+    "par_swap_7y": "0.03314647",
+    "avg_forward_5_to_6y": "0.03112045",
+    "target_swap_pv": "-9538.62"
+  },
+  {
+    "mode": "LOG_LINEAR_DISCOUNT_FACTORS",
+    "par_swap_5y": "0.03401511",
+    "par_swap_7y": "0.03315820",
+    "avg_forward_5_to_6y": "0.03061658",
+    "target_swap_pv": "-9763.77"
+  },
+  {
+    "mode": "LINEAR_DISCOUNT_FACTORS",
+    "par_swap_5y": "0.03400777",
+    "par_swap_7y": "0.03315038",
+    "avg_forward_5_to_6y": "0.03014800",
+    "target_swap_pv": "-10099.19"
+  }
+]
