@@ -62,12 +62,19 @@ PYTHONPATH=src python3 -m unittest discover -s tests -v
 - `results/pricing_summary.json`
 - `results/forward_curve_comparison.svg`
 - `results/par_rate_comparison.svg`
+- `results/zero_curve_comparison.svg`
+- `results/target_swap_pv_comparison.svg`
 
 ## Preview
 
-![Forward curve comparison](results/forward_curve_comparison.svg)
-
-![Par rate comparison](results/par_rate_comparison.svg)
+<p align="center">
+  <img src="results/forward_curve_comparison.svg" width="49%" alt="Forward curve comparison" />
+  <img src="results/zero_curve_comparison.svg" width="49%" alt="Zero curve comparison" />
+</p>
+<p align="center">
+  <img src="results/par_rate_comparison.svg" width="49%" alt="Par rate comparison" />
+  <img src="results/target_swap_pv_comparison.svg" width="49%" alt="Target swap PV comparison" />
+</p>
 
 ## Why This Project Is Useful
 

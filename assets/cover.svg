@@ -1,51 +1,78 @@
 <svg width="1600" height="900" viewBox="0 0 1600 900" fill="none" xmlns="http://www.w3.org/2000/svg">
-  <defs>
-    <linearGradient id="bg" x1="160" y1="50" x2="1470" y2="860" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#08111E"/>
-      <stop offset="1" stop-color="#101B2D"/>
-    </linearGradient>
-    <linearGradient id="panel" x1="220" y1="154" x2="1380" y2="760" gradientUnits="userSpaceOnUse">
-      <stop stop-color="#101C2E" stop-opacity="0.97"/>
-      <stop offset="1" stop-color="#0C1625" stop-opacity="0.99"/>
-    </linearGradient>
-  </defs>
-  <rect width="1600" height="900" rx="36" fill="url(#bg)"/>
-  <circle cx="1330" cy="120" r="248" fill="#123454" fill-opacity="0.30"/>
-  <g>
-    <rect x="220" y="154" width="1160" height="548" rx="30" fill="url(#panel)" stroke="#27384D" stroke-width="1.5"/>
-  </g>
-  <rect x="262" y="200" width="220" height="34" rx="17" fill="#14273C"/>
-  <text x="292" y="223" fill="#8AD7FF" font-size="18" font-family="SF Pro Display, Helvetica, Arial, sans-serif" letter-spacing="2.4">PUBLIC RATES PROJECT</text>
-  <text x="262" y="316" fill="#F4F7FB" font-size="68" font-weight="700" font-family="SF Pro Display, Helvetica, Arial, sans-serif">Yield Curve Interpolation Lab</text>
-  <text x="262" y="368" fill="#AFC1D8" font-size="24" font-family="SF Pro Text, Helvetica, Arial, sans-serif">How linear-zero, log-linear-discount, and linear-discount interpolation reshape forward curves and swap metrics.</text>
-  <rect x="262" y="432" width="126" height="38" rx="19" fill="#132638"/>
-  <text x="294" y="457" fill="#DCEAF8" font-size="18" font-family="SF Pro Text, Helvetica, Arial, sans-serif">Python</text>
-  <rect x="400" y="432" width="170" height="38" rx="19" fill="#132638"/>
-  <text x="430" y="457" fill="#DCEAF8" font-size="18" font-family="SF Pro Text, Helvetica, Arial, sans-serif">Yield Curves</text>
-  <rect x="582" y="432" width="190" height="38" rx="19" fill="#132638"/>
-  <text x="614" y="457" fill="#DCEAF8" font-size="18" font-family="SF Pro Text, Helvetica, Arial, sans-serif">Interpolation</text>
-  <rect x="262" y="525" width="470" height="130" rx="24" fill="#0E1929" stroke="#24364A" stroke-width="1.2"/>
-  <text x="292" y="563" fill="#7D95B3" font-size="18" font-family="SF Pro Text, Helvetica, Arial, sans-serif">Main Question</text>
-  <text x="292" y="603" fill="#F5F8FC" font-size="28" font-weight="600" font-family="SF Pro Display, Helvetica, Arial, sans-serif">Same market nodes, different curve shape in-between</text>
-  <text x="292" y="636" fill="#96A9C0" font-size="17" font-family="SF Pro Text, Helvetica, Arial, sans-serif">That difference shows up directly in forward rates and downstream swap analytics.</text>
-  <rect x="760" y="214" width="570" height="214" rx="24" fill="#0D1828" stroke="#243448" stroke-width="1.2"/>
-  <text x="792" y="252" fill="#7F96B2" font-size="18" font-family="SF Pro Text, Helvetica, Arial, sans-serif">Forward Curve View</text>
-  <line x1="812" y1="390" x2="1295" y2="390" stroke="#2B3D54" stroke-width="1"/>
-  <line x1="812" y1="346" x2="1295" y2="346" stroke="#1E2E42" stroke-width="1"/>
-  <line x1="812" y1="302" x2="1295" y2="302" stroke="#1E2E42" stroke-width="1"/>
-  <line x1="812" y1="258" x2="1295" y2="258" stroke="#1E2E42" stroke-width="1"/>
-  <path d="M820 345L900 330L980 300L1060 285L1140 308L1284 292" stroke="#61D9FF" stroke-width="5" stroke-linecap="round"/>
-  <path d="M820 350L900 336L980 312L1060 290L1140 296L1284 299" stroke="#7CF0C5" stroke-width="5" stroke-linecap="round"/>
-  <path d="M820 365L900 330L980 320L1060 270L1140 315L1284 285" stroke="#FFC86E" stroke-width="5" stroke-linecap="round"/>
-  <rect x="760" y="454" width="270" height="204" rx="24" fill="#0D1828" stroke="#243448" stroke-width="1.2"/>
-  <text x="792" y="492" fill="#7F96B2" font-size="18" font-family="SF Pro Text, Helvetica, Arial, sans-serif">Swap Lens</text>
-  <text x="792" y="537" fill="#F6F8FB" font-size="18" font-family="SF Pro Text, Helvetica, Arial, sans-serif">5Y par rate spread across methods</text>
-  <text x="792" y="574" fill="#FFFFFF" font-size="34" font-weight="700" font-family="SF Pro Display, Helvetica, Arial, sans-serif">~10 bps</text>
-  <text x="792" y="618" fill="#F6F8FB" font-size="18" font-family="SF Pro Text, Helvetica, Arial, sans-serif">Signal</text>
-  <text x="792" y="655" fill="#61D9FF" font-size="36" font-weight="700" font-family="SF Pro Display, Helvetica, Arial, sans-serif">Interpolation matters</text>
-  <rect x="1060" y="454" width="270" height="204" rx="24" fill="#0D1828" stroke="#243448" stroke-width="1.2"/>
-  <text x="1092" y="492" fill="#7F96B2" font-size="18" font-family="SF Pro Text, Helvetica, Arial, sans-serif">Use Case</text>
-  <text x="1092" y="537" fill="#F6F8FB" font-size="18" font-family="SF Pro Text, Helvetica, Arial, sans-serif">Pricing, hedging, scenario analysis</text>
-  <text x="1092" y="574" fill="#FFFFFF" font-size="34" font-weight="700" font-family="SF Pro Display, Helvetica, Arial, sans-serif">Curve shape → risk shape</text>
-  <text x="220" y="794" fill="#7B8CA4" font-size="20" font-family="SF Pro Text, Helvetica, Arial, sans-serif">Portfolio-ready fixed-income methods demo • Forward-curve geometry and downstream pricing impact</text>
+  <rect width="1600" height="900" rx="32" fill="#0E1117"/>
+  <rect x="48" y="48" width="1504" height="804" rx="28" fill="#161922" stroke="#808495" stroke-width="1.2"/>
+  <rect x="48" y="48" width="1504" height="14" rx="7" fill="#ABB6FF"/>
+  <circle cx="1388" cy="126" r="96" fill="#ABB6FF" fill-opacity="0.14"/>
+  <circle cx="1480" cy="786" r="140" fill="#FFC880" fill-opacity="0.14"/>
+  <circle cx="128" cy="786" r="110" fill="#ABB6FF" fill-opacity="0.10"/>
+
+  <text x="86" y="96" fill="#ABB6FF" font-size="18" font-weight="700" font-family="Inter, Arial, sans-serif" letter-spacing="2.8">PUBLIC FIXED-INCOME ANALYTICS NOTE</text>
+  <text x="86" y="210" fill="#FFFFFF" font-size="66" font-weight="800" font-family="Inter, Arial, sans-serif">Yield Curve</text><text x="86" y="286" fill="#FFFFFF" font-size="66" font-weight="800" font-family="Inter, Arial, sans-serif">Interpolation Lab</text>
+  <text x="88" y="360" fill="#CFCFD0" font-size="28" font-family="Inter, Arial, sans-serif">A rates methods project showing how interpolation choices</text><text x="88" y="394" fill="#CFCFD0" font-size="28" font-family="Inter, Arial, sans-serif">reshape zero curves, forward curves, and downstream swap</text><text x="88" y="428" fill="#CFCFD0" font-size="28" font-family="Inter, Arial, sans-serif">metrics from the same market nodes.</text>
+  
+    <g>
+      <rect x="86" y="124" width="100" height="34" rx="17" fill="#262730"/>
+      <text x="106" y="146" fill="#FFFFFF" font-size="18" font-family="Inter, Arial, sans-serif">Python</text>
+    </g>
+    
+    <g>
+      <rect x="198" y="124" width="160" height="34" rx="17" fill="#262730"/>
+      <text x="218" y="146" fill="#FFFFFF" font-size="18" font-family="Inter, Arial, sans-serif">Yield Curves</text>
+    </g>
+    
+    <g>
+      <rect x="370" y="124" width="170" height="34" rx="17" fill="#262730"/>
+      <text x="390" y="146" fill="#FFFFFF" font-size="18" font-family="Inter, Arial, sans-serif">Interpolation</text>
+    </g>
+    
+    <g>
+      <rect x="552" y="124" width="180" height="34" rx="17" fill="#262730"/>
+      <text x="572" y="146" fill="#FFFFFF" font-size="18" font-family="Inter, Arial, sans-serif">Swap Analytics</text>
+    </g>
+    
+
+  <rect x="872" y="136" width="616" height="304" rx="26" fill="#262730" stroke="#808495" stroke-width="1.1"/>
+  <text x="904" y="180" fill="#FFFFFF" font-size="24" font-weight="700" font-family="Inter, Arial, sans-serif">Forward curve divergence</text>
+  <line x1="906" y1="390" x2="1456" y2="390" stroke="#808495" stroke-width="1"/>
+  <line x1="906" y1="338" x2="1456" y2="338" stroke="#808495" stroke-opacity="0.45" stroke-width="1"/>
+  <line x1="906" y1="286" x2="1456" y2="286" stroke="#808495" stroke-opacity="0.45" stroke-width="1"/>
+  <line x1="906" y1="234" x2="1456" y2="234" stroke="#808495" stroke-opacity="0.45" stroke-width="1"/>
+  <polyline points="928.0,344.0 1014.0,318.0 1098.0,290.0 1182.0,250.0 1266.0,302.0 1350.0,274.0" fill="none" stroke="#ABB6FF" stroke-width="5.5" stroke-linecap="round" stroke-linejoin="round"/>
+
+  <rect x="872" y="468" width="616" height="210" rx="26" fill="#262730" stroke="#808495" stroke-width="1.1"/>
+  <text x="904" y="512" fill="#FFFFFF" font-size="24" font-weight="700" font-family="Inter, Arial, sans-serif">Target swap PV by method</text>
+  
+            <text x="996" y="308" fill="#CFCFD0" font-size="18" font-family="Inter, Arial, sans-serif">Linear zero</text>
+            <rect x="996" y="318" width="300" height="18" rx="9" fill="#262730"/>
+            <rect x="996" y="318" width="283.3" height="18" rx="9" fill="#FFC880"/>
+            
+            <text x="996" y="364" fill="#CFCFD0" font-size="18" font-family="Inter, Arial, sans-serif">Log-linear DF</text>
+            <rect x="996" y="374" width="300" height="18" rx="9" fill="#262730"/>
+            <rect x="996" y="374" width="290.0" height="18" rx="9" fill="#FFC880"/>
+            
+            <text x="996" y="420" fill="#CFCFD0" font-size="18" font-family="Inter, Arial, sans-serif">Linear DF</text>
+            <rect x="996" y="430" width="300" height="18" rx="9" fill="#262730"/>
+            <rect x="996" y="430" width="300.0" height="18" rx="9" fill="#FFC880"/>
+            
+
+  
+    <g>
+      <rect x="86" y="694" width="246" height="132" rx="22" fill="#161922" stroke="#808495" stroke-width="1.1"/>
+      <text x="114" y="734" fill="#CFCFD0" font-size="18" font-family="Inter, Arial, sans-serif">5Y par range</text>
+      <text x="114" y="788" fill="#ABB6FF" font-size="40" font-weight="700" font-family="Inter, Arial, sans-serif">2.0 bps</text>
+    </g>
+    
+    <g>
+      <rect x="358" y="694" width="246" height="132" rx="22" fill="#161922" stroke="#808495" stroke-width="1.1"/>
+      <text x="386" y="734" fill="#CFCFD0" font-size="18" font-family="Inter, Arial, sans-serif">PV spread</text>
+      <text x="386" y="788" fill="#ABB6FF" font-size="40" font-weight="700" font-family="Inter, Arial, sans-serif">560</text>
+    </g>
+    
+    <g>
+      <rect x="630" y="694" width="246" height="132" rx="22" fill="#161922" stroke="#808495" stroke-width="1.1"/>
+      <text x="658" y="734" fill="#CFCFD0" font-size="18" font-family="Inter, Arial, sans-serif">curve grid</text>
+      <text x="658" y="788" fill="#ABB6FF" font-size="40" font-weight="700" font-family="Inter, Arial, sans-serif">40 pts</text>
+    </g>
+    
+  <text x="86" y="864" fill="#808495" font-size="20" font-family="Inter, Arial, sans-serif">yield-curve-interpolation-lab • public portfolio project with reproducible outputs and README-ready visuals</text>
 </svg>
