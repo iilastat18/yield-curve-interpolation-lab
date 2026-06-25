@@ -39,6 +39,43 @@ That choice influences:
 
 The repo keeps the setup simple on purpose so the interpolation effect stays visible rather than being buried in framework code.
 
+## Core Formulas
+
+The shared object across all interpolation choices is the discount curve:
+
+$$
+P(0,T) = e^{-z(T)T}.
+$$
+
+From that, the forward rate over a period \([T_1,T_2]\) is
+
+$$
+F(T_1,T_2) = \frac{1}{T_2-T_1}\left(\frac{P(0,T_1)}{P(0,T_2)} - 1\right).
+$$
+
+The three interpolation choices compared in the repo are:
+
+$$
+\text{Linear zero: } z(T) = \operatorname{lerp}(z_i, z_{i+1}),
+$$
+
+$$
+\text{Log-linear discount: } \log P(0,T) = \operatorname{lerp}(\log P_i, \log P_{i+1}),
+$$
+
+$$
+\text{Linear discount: } P(0,T) = \operatorname{lerp}(P_i, P_{i+1}).
+$$
+
+Those choices feed directly into downstream swap metrics, including the par rate
+
+$$
+K^\star
+=
+\frac{\sum_{i=1}^n \left(P(0,T_{i-1})-P(0,T_i)\right)}
+{\sum_{i=1}^n \delta_i P(0,T_i)}.
+$$
+
 ## What It Shows
 
 - three deterministic interpolation schemes on the same zero-rate input
