@@ -1,7 +1,7 @@
 <div align="center">
   <h1>Yield Curve Interpolation Lab</h1>
   <p><strong>A public-facing fixed-income methods project showing how different interpolation choices reshape discount curves, forward curves, and swap metrics from the same market inputs.</strong></p>
-  <p>Built as an independent portfolio project inspired by curve-construction coursework, but rewritten around analytics, visualization, and public-facing presentation.</p>
+  <p>Built as a compact portfolio project focused on analytics, visualization, and downstream pricing impact.</p>
 </div>
 
 <p align="center">
@@ -104,6 +104,5 @@ yield-curve-interpolation-lab/
 
 ## Notes
 
-- This is an independent public rebuild, not a classroom repository mirror.
 - The project focuses on interpolation mechanics rather than production curve bootstrapping.
 - The point is not that one interpolation is always best, but that the choice is economically meaningful.
